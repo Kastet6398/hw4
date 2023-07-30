@@ -12,3 +12,5 @@ while True:
 
     with open(f'statistics/position.csv', 'a') as file:
         file.write(result)
+
+    time.sleep(5)
